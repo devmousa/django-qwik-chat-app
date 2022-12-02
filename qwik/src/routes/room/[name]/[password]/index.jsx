@@ -1,4 +1,4 @@
-import { $, component$, useClientEffect$, useContext, useStore, useStyles$, useMount$ } from "@builder.io/qwik";
+import { $, component$, useClientEffect$, useContext, useStore, useStyles$ } from "@builder.io/qwik";
 import { AuthContext } from "~/routes/context";
 import { useLocation, useNavigate, Link } from "@builder.io/qwik-city";
 import jwt_decode from "jwt-decode"
